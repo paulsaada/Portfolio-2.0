@@ -1,3 +1,5 @@
+/*----- GLOBAL STYLES -----*/
+
 body {
    background: #F5F5F5;
    color: #222222;
@@ -15,14 +17,23 @@ a:visited {
    color: inherit;
 }
 
+article {
+   padding-bottom: 100px;
+}
+
+/*----- HEADER -----*/
+
 header h1 {
    font-weight: 600;
-   font-size: 2.6em;
+   font-size: 2.4em;
 }
 
 header {
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
 }
+
+/*----- NAVIGATION -----*/
 
 .nav {
    font-size: 17px;
@@ -35,42 +46,57 @@ header {
    list-style-type: none;
    display: flex;
    padding-top: 10px;
+   justify-content: flex-end;
 }
 
 .nav li {
    margin-left: 80px;
-   opacity: 80%;
+   opacity: 75%;
+   padding-bottom: 3px;
 }
 
 .nav li:hover {
    opacity: 100%;
+   border-bottom: #222222 2px solid;
 }
+
+/*----- INTRO SECTION -----*/
 
 .intro {
    display: flex;
+   padding-top: 10%;
 }
 
 .intro h1 {
    font-size: 83px;
    font-weight: 700;
    margin: 0;
-   padding-top: 30%;
 }
 
 .intro h3 {
    font-family: 'Minion Pro', sans-serif;
    font-weight: 800;
-   font-size: 25px;
+   font-size: 22px;
    line-height: 35px;
    margin-bottom: 0;
 }
+
+.intro-desc {
+   padding-right: 10px;
+}
+
+.intro-desc a {
+   color: inherit;
+   text-decoration: underline;
+   font-style: italic;
+} 
 
 .see-work a {
    display: flex;
 }
 
 .see-work i {
-   padding: 34px 15px;
+   padding: 31px 15px;
 }
 
 .see-work h3::after {
@@ -105,5 +131,29 @@ header {
 .illustration img {
    max-width: 500px;
    height: auto;
-   padding-top: 30%;
+   padding-top: 35px;
+}
+
+/*----- FOOTER -----*/
+
+hr {
+   margin-bottom: 0;
+}
+
+footer {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.footer-credits {
+   margin: 0;
+   padding-right: 15px;
+}
+
+.footer-icons img {
+   width: 21px;
+   height: auto;
+   margin-top: 0;
+   padding-top: 7px;
+   padding-right: 5px;
 }
