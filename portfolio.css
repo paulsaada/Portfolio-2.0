@@ -1,0 +1,61 @@
+/*----- GLOBAL STYLES -----*/
+
+body {
+   background: #F5F5F5;
+   color: #222222;
+   width: 70%;
+   max-width: 1600px;
+   margin: 15px auto;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:visited {
+   color: inherit;
+}
+
+article {
+   padding-bottom: 100px;
+}
+
+/*----- HEADER -----*/
+
+header h1 {
+   font-weight: 600;
+   font-size: 2.4em;
+}
+
+header {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+}
+
+/*----- NAVIGATION -----*/
+
+.nav {
+   font-size: 17px;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+}
+
+.nav ul {
+   list-style-type: none;
+   display: flex;
+   padding-top: 10px;
+   justify-content: flex-end;
+}
+
+.nav li {
+   margin-left: 80px;
+   opacity: 75%;
+   padding-bottom: 3px;
+}
+
+.nav li:hover {
+   opacity: 100%;
+   border-bottom: #222222 2px solid;
+}
