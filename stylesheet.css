@@ -82,14 +82,26 @@ header {
 }
 
 .intro-desc {
-   padding-right: 10px;
+   padding-right: 18px;
+   padding-bottom: 55px;
 }
 
 .intro-desc a {
    color: inherit;
    text-decoration: underline;
    font-style: italic;
-} 
+}
+
+.see-work {
+   border-bottom: 2px solid #222222;
+   max-width: 400px;
+}
+
+.see-work h3 {
+   font-size: 1.7em;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
 
 .see-work a {
    display: flex;
@@ -97,19 +109,6 @@ header {
 
 .see-work i {
    padding: 31px 15px;
-}
-
-.see-work h3::after {
-   content: '';
-   display: block;
-   width: 0;
-   height: 2px;
-   background: #222222;
-   transition: width 0.3s;
-}
-
-.see-work h3:hover::after {
-   width: 126%;
 }
 
 .hvr-skew-forward {
@@ -138,6 +137,7 @@ header {
 
 hr {
    margin-bottom: 0;
+   opacity: 0;
 }
 
 footer {
