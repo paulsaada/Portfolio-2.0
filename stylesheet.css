@@ -15,9 +15,15 @@ a:visited {
    color: inherit;
 }
 
-ul {
+nav ul {
    list-style-type: none;
    display: flex;
+   justify-content: right;
+}
+
+nav li {
+   justify-content: right;
+   margin-left: 80px;
 }
 
 header h1 {
@@ -26,9 +32,10 @@ header h1 {
 }
 
 nav {
+   font-size: 18px;
    font-weight: 600;
    text-transform: uppercase;
-   letter-spacing: 0.7px;
+   letter-spacing: 0.05em;
 }
 
 header {
@@ -51,10 +58,23 @@ header {
    font-size: 25px;
    font-style: italic;
    line-height: 35px;
+   margin-bottom: 0;
 }
 
 .see-work {
    display: flex;
+}
+
+.see-work i {
+   padding: 34px 15px;
+   opacity: 0;
+}
+
+.see-work i:hover {
+   opacity: 1;
+}
+
+.see-work h3 {
 }
 
 .illustration img {
