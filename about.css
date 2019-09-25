@@ -95,9 +95,11 @@ header {
 
  .resume a {
     display: flex;
+    text-decoration: none;
  }
 
  .resume {
+   font-family: 'Minion Pro', sans-serif;
    padding-top: 50px;
    margin-bottom: 0;
    padding-bottom: 0;
@@ -106,13 +108,13 @@ header {
 }
 
 .resume h3 {
-   font-size: 1.2em;
+   font-size: 1.6em;
    padding-bottom: 20px;
    margin-bottom: 0;
 }
 
 .resume i {
-   padding: 17px 15px;
+   padding: 25px 15px;
 }
 
 .about-social-icons {
@@ -142,7 +144,7 @@ header {
 
 .about-desc {
    flex: 70%;
-   padding: 18px;
+   padding: 20px;
 }
 
 .about-desc h1 {
@@ -167,6 +169,7 @@ header {
 
 .about-image p {
    margin-top: 0;
+   color: #666666;
    font-family: 'Nimbus-Sans-Extended', sans-serif;
    font-weight: 800;
    font-size: 17px;
