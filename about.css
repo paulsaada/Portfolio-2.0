@@ -126,10 +126,6 @@ header {
    width: 35px;
    height: auto;
 }
-
-.about-social-icons a {
-}
-
 .about-card {
    display: flex;
    flex-direction: row-reverse;
@@ -169,7 +165,7 @@ header {
 
 .about-image p {
    margin-top: 0;
-   color: #666666;
+   color: #585858;
    font-family: 'Nimbus-Sans-Extended', sans-serif;
    font-weight: 800;
    font-size: 17px;
@@ -192,25 +188,30 @@ header {
 }
 
 .about-skills p {
-   line-height: 26px;
+   line-height: 27px;
    margin: 15px;
+   color: #585858;
 }
 
 .greatest-strengths h2 {
+   font-size: 22px;
    text-align: center;
+   padding-bottom: 0;
+   margin-bottom: 0;
 }
 
 .greatest-strengths {
    text-align: center;
    background: #FFF9E9;
    border-top: 7px solid #FFD220;
-   padding: 15px;
+   padding: 30px;
 }
 
 .greatest-strengths li {
+   color: #585858;
    font-size: 19px;
    line-height: 28px;
-   padding-top: 15px;
+   padding-top: 30px;
    font-family: 'Nimbus-Sans-Extended', sans-serif;
 }
 
